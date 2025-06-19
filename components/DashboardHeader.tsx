@@ -1,4 +1,4 @@
-// components/DashboardHeader.tsx
+
 import { Goal } from "@/types/goal";
 
 interface Props {
