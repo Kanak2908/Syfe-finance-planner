@@ -35,9 +35,9 @@ export default function Home() {
       const { rate, time } = await fetchExchangeRate();
       setExchangeRate(rate);
       setLastUpdated(time);
-    } catch {
-      alert("Failed to fetch exchange rate");
-    }
+    } } catch {
+  alert("Failed to fetch exchange rate");
+}
   };
 
   useEffect(() => {
