@@ -1,4 +1,4 @@
-// app/page.tsx
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -35,7 +35,7 @@ export default function Home() {
       const { rate, time } = await fetchExchangeRate();
       setExchangeRate(rate);
       setLastUpdated(time);
-    } catch (error) {
+    } catch {
       alert("Failed to fetch exchange rate");
     }
   };
